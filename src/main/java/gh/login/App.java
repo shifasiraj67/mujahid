@@ -20,7 +20,7 @@ public class App {
 	
 	public static WebDriver setUpDriver () {
 		System.setProperty("webdriver.chrome.driver", 
-				"..\\..\\..\\chromedriver.exe");
+				"..\\..\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--window-position=-32000,-32000");
 		options.addArguments("--remote-allow-origins=*");
